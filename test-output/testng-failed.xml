@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FREE CRM 2 Automation Test Suite]">
+  <test thread-count="5" name="Free CRM 2 App Test Cases(failed)">
+    <classes>
+      <class name="com.crm2.qa.testcases.ProductPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="validateCreateNewProductTest" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.crm2.qa.testcases.ProductPageTest -->
+    </classes>
+  </test> <!-- Free CRM 2 App Test Cases(failed) -->
+</suite> <!-- Failed suite [FREE CRM 2 Automation Test Suite] -->
